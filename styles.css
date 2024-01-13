@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+#container {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#shapes {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 25px;
+    right: 583px;
+}
